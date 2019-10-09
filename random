@@ -1,0 +1,65 @@
+public void randomNumber() {
+//        Random rnd = new Random();
+//       int a= rnd.nextInt(6)+1;
+//        System.out.println(a);
+//        a= rnd.nextInt(6)+1;                   //nahodne cisla z rozsahu 1 - 5
+//        System.out.println(a);                    // +1 = zacina od "1"
+//       a=  rnd.nextInt(6)+1;
+//        System.out.println(a);
+//
+//    }
+
+
+//    public void randomNumber() {
+//        Random rnd = new Random();
+//       int  a = rnd.nextInt(6) + 1;
+//        int b;
+//        int c;
+//        do {
+//            b = rnd.nextInt(6) + 1;                        //nahodne cisla ktore sa nemozu opakovat zacinajuce od 1
+//
+//
+//        } while (a == b);
+//
+//        do {
+//            c = rnd.nextInt(6) + 1;
+//        } while (c == a || c == b);
+//
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+//    }
+
+
+ public void randomNumber (){
+        Random rnd = new Random();
+//        int a = rnd.nextInt(26)+97;             // <97;122>
+//     System.out.println(a);
+//
+//     int b= rnd.nextInt(10)+48;                 // <48;57>
+//     System.out.println(b);
+//
+//     int c =rnd.nextInt(101)+100;               //<100;200>
+//     System.out.println(c);
+//
+//     int d = rnd.nextInt(21)-10;                //<-10;10>
+//     System.out.println(d);
+//
+//     int e = rnd.nextInt(4)-1;                 //<-1;2>
+//     System.out.println(e);
+//
+//     int f = rnd.nextInt(503)+113;              //<113;615>
+//     System.out.println(f);
+
+     int a= 5* (rnd.nextInt(10)+1);      //nasobok cisla 5
+     System.out.println(a);
+
+
+     int b=  2* (rnd.nextInt(45)+5);   //parne dvojciferne
+     System.out.println(b);
+
+     int c = 2* (rnd.nextInt(45)+5)+1;  //neparne dvojciferne
+     System.out.println(c);
+
+
+ }
