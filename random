@@ -107,5 +107,24 @@ public void randomNumber() {
         }
 
         System.out.println(password);
+        
+        
+          String password = "";
+//
+//       for (int l = 0; l < 10; l++) {
+//        int num= rnd.nextInt(75)+48;
+//         if(num >57 && num <65 || num > 90 && num <97){
+//             l--;
+//             continue;
+//         }
+//         char letter = (char)num;
+//         password = password+letter;
+//        }
+//
+//        System.out.println(password);
+
+    
+        }
+
     }
  }
