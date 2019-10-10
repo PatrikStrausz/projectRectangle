@@ -61,5 +61,51 @@ public void randomNumber() {
      int c = 2* (rnd.nextInt(45)+5)+1;  //neparne dvojciferne
      System.out.println(c);
 
+ int g = 11* (rnd.nextInt(81)+10);    //trojciferne cisla delitelne 11
+//     System.out.println(g);
 
+//        int prime;
+//        int div;
+//        do {
+//            prime = rnd.nextInt(4500) + 500;
+//            prime = 2 * prime + 1;
+//            div = 0;
+//            for (int i = 2; i <= Math.sqrt(prime); i++) {
+//                if (prime % i == 0) {
+//                    div++;
+//                }
+//            }
+//        } while (div > 0);                                                     //vypise stvorciferne prvocislo
+//        System.out.println(prime);
+
+
+//        String password= "";
+//        for(int l=0; l<6; l++) {
+//            int num = rnd.nextInt(26) + 65;          //nahodne heslo
+//            char letter = (char) num;
+//            password= password +  letter;
+//        }
+//        System.out.println(password);
+//    }
+
+
+        String password = "";
+        for (int l = 0; l < 5; l++) {
+            int num = rnd.nextInt(26) + 65;
+            char letter = (char) num;
+            password = password + letter;
+        }                                              //nahodne heslo velke + male pismena + cisla
+        for (int m = 0; m < 5; m++) {
+            int num = rnd.nextInt(26) + 97;
+            char letter = (char) num;
+            password = password + letter;
+        }
+        for (int p = 0; p < 5; p++) {
+            int num = rnd.nextInt(10) + 48;
+            char letter = (char) num;
+            password = password + letter;
+        }
+
+        System.out.println(password);
+    }
  }
