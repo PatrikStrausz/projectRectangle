@@ -1,0 +1,130 @@
+public void randomNumber() {
+//        Random rnd = new Random();
+//       int a= rnd.nextInt(6)+1;
+//        System.out.println(a);
+//        a= rnd.nextInt(6)+1;                   //nahodne cisla z rozsahu 1 - 5
+//        System.out.println(a);                    // +1 = zacina od "1"
+//       a=  rnd.nextInt(6)+1;
+//        System.out.println(a);
+//
+//    }
+
+
+//    public void randomNumber() {
+//        Random rnd = new Random();
+//       int  a = rnd.nextInt(6) + 1;
+//        int b;
+//        int c;
+//        do {
+//            b = rnd.nextInt(6) + 1;                        //nahodne cisla ktore sa nemozu opakovat zacinajuce od 1
+//
+//
+//        } while (a == b);
+//
+//        do {
+//            c = rnd.nextInt(6) + 1;
+//        } while (c == a || c == b);
+//
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+//    }
+
+
+ public void randomNumber (){
+        Random rnd = new Random();
+//        int a = rnd.nextInt(26)+97;             // <97;122>
+//     System.out.println(a);
+//
+//     int b= rnd.nextInt(10)+48;                 // <48;57>
+//     System.out.println(b);
+//
+//     int c =rnd.nextInt(101)+100;               //<100;200>
+//     System.out.println(c);
+//
+//     int d = rnd.nextInt(21)-10;                //<-10;10>
+//     System.out.println(d);
+//
+//     int e = rnd.nextInt(4)-1;                 //<-1;2>
+//     System.out.println(e);
+//
+//     int f = rnd.nextInt(503)+113;              //<113;615>
+//     System.out.println(f);
+
+     int a= 5* (rnd.nextInt(10)+1);      //nasobok cisla 5
+     System.out.println(a);
+
+
+     int b=  2* (rnd.nextInt(45)+5);   //parne dvojciferne
+     System.out.println(b);
+
+     int c = 2* (rnd.nextInt(45)+5)+1;  //neparne dvojciferne
+     System.out.println(c);
+
+ int g = 11* (rnd.nextInt(81)+10);    //trojciferne cisla delitelne 11
+//     System.out.println(g);
+
+//        int prime;
+//        int div;
+//        do {
+//            prime = rnd.nextInt(4500) + 500;
+//            prime = 2 * prime + 1;
+//            div = 0;
+//            for (int i = 2; i <= Math.sqrt(prime); i++) {
+//                if (prime % i == 0) {
+//                    div++;
+//                }
+//            }
+//        } while (div > 0);                                                     //vypise stvorciferne prvocislo
+//        System.out.println(prime);
+
+
+//        String password= "";
+//        for(int l=0; l<6; l++) {
+//            int num = rnd.nextInt(26) + 65;          //nahodne heslo
+//            char letter = (char) num;
+//            password= password +  letter;
+//        }
+//        System.out.println(password);
+//    }
+
+
+        String password = "";
+        for (int l = 0; l < 5; l++) {
+            int num = rnd.nextInt(26) + 65;
+            char letter = (char) num;
+            password = password + letter;
+        }                                              //nahodne heslo velke + male pismena + cisla
+        for (int m = 0; m < 5; m++) {
+            int num = rnd.nextInt(26) + 97;
+            char letter = (char) num;
+            password = password + letter;
+        }
+        for (int p = 0; p < 5; p++) {
+            int num = rnd.nextInt(10) + 48;
+            char letter = (char) num;
+            password = password + letter;
+        }
+
+        System.out.println(password);
+        
+        
+          String password = "";
+//
+//       for (int l = 0; l < 10; l++) {
+//        int num= rnd.nextInt(75)+48;
+//         if(num >57 && num <65 || num > 90 && num <97){
+//             l--;
+//             continue;
+//         }
+//         char letter = (char)num;
+//         password = password+letter;
+//        }
+//
+//        System.out.println(password);
+
+    
+        }
+
+    }
+ }

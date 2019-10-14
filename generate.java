@@ -1,3 +1,4 @@
+
 package sk.itsovy.strausz.other;
 
 import java.util.Random;
@@ -8,6 +9,14 @@ public class generate {
 
         Scanner scanner = new Scanner(System.in);
         Random rnd = new Random();
+
+        System.out.println("Enter your name: ");
+        String name = "";
+        name = scanner.nextLine();
+
+        System.out.println("Hi " + name + ", welcome in this task");
+        System.out.println();
+
         for (int i = 1; i <= 10; i++) {
             int a = rnd.nextInt(90) + 10;
             int b = rnd.nextInt(90) + 10;
@@ -19,8 +28,8 @@ public class generate {
 
             switch (symbol) {
                 case 0:
-//
-                    System.out.println("Problem" + i);
+
+                    System.out.println("Task" + i);
                     System.out.println(a + " + " + b + " = ");
                     result = a + b;
                     break;
@@ -31,12 +40,12 @@ public class generate {
                     System.out.println(a + " + " + b + " = ");
                     result = a + b;
                     break;
+
                 case 2:
                     System.out.println("Task" + i);
                     System.out.println(a + " - " + b + " = ");
                     result = a - b;
                     break;
-
 
                 case 3:
                     System.out.println("Task" + i);
@@ -51,9 +60,8 @@ public class generate {
             } else {
                 System.out.println("Incorrect. Correct answer is " + result);
             }
-//s
 
         }
     }
-
 }
+
