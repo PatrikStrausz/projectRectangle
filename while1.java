@@ -5,9 +5,12 @@ public class while1 {
 
     public static void main(String[] args) {
         test tt= new test();
-        tt.paintRectangle();
+//        tt.paintRectangle();
+//        tt.generatePassword();
+//        tt.randomNumber();
 
-        tt.quadraticEqual();
+// tt.paintPyramid();
+//        tt.quadraticEqual();
 //        int i = 10000;
 //        while(i<=99999){
 //            int a = i%10;
@@ -173,7 +176,7 @@ public class while1 {
 //        }
 
 //
-// for (int i = 1; i <= 7; i++) {
+// for (int i = 7; i >= 1; i--) {
 //            for (int j = 6; j >= i; j -- ) {
 //                System.out.print("  ");
 //            }
