@@ -430,29 +430,7 @@ public class test {
 
 
 
-//    public String generatePassword(){
-//        Scanner scanner = new Scanner(System.in);
-//
-//
-//
-//        int sum=0;
-//        String passwd="";
-//
-//        Random rnd = new Random();
-//
-//
-//            int a = rnd.nextInt(90)+10;
-//            int b = rnd.nextInt(90)+10;
-//        System.out.println(a + " +" +b + "= " );
-//        int result =scanner.nextInt();
-//
-//          if(result==(a+b)){
-//              System.out.println("Correct");
-//    } else {
-//              System.out.println("Incorrect");
-//          }
-//
-//}
+
 
 
 
